@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SpringJDBC:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SpringJDBC_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SpringJDBC/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpringJDBC" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-logging-1.2-javadoc" />
+          <element id="library" level="project" name="jstl-1.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
